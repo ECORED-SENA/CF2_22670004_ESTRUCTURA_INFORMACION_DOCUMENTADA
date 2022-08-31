@@ -1,14 +1,32 @@
+.banner-principal__img
+  z-index: 2
+  max-width: 400px !important
 .banner-principal-decorativo
+  z-index: 1
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float3 8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    width: 78px  
+    top: 34%
+    right: 6%
   &-2
+    animation: float2 8s ease-in-out infinite alternate
+    position: absolute
+    width: 160px  
+    top: 61%
+    right: 0%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    width: 250px  
+    top: 20%
+    right: 76%
+  &-4
+    animation: float4 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 80px  
+    top: 20%
+    right: 0%        
 
 
 @keyframes float1
@@ -17,3 +35,246 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-50px) rotate(0deg);
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-50px) rotate(-180deg)  
+
+@keyframes float3 
+	0% 
+		transform: rotate(0deg) translateX(-50px) rotate(0deg)
+	
+
+	100% 
+		transform: rotate(360deg) translateX(-50px) rotate(-360deg) 
+
+@keyframes float4
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)              
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/5.png") !important
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto  
+
+.img-infografica-b__item__numero
+  color: $color-sistema-texto !important
+
+.img-infografica-b__modal
+  background-image: url('../assets/curso/temas/img3.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.img-infografica-b__modal__contenido div > *
+    color: $color-sistema-texto !important        
+
+.img-infografica-b__modal__btn-cerrar i
+  color: $color-sistema-texto !important    
+
+.cajon.color-primario
+  background-color: #D6EFFF  
+.cajon.color-primario::before
+  background-color: #73BAE8
+
+.tblue
+  color: #0082EF    
+
+.ts  
+  color: $color-sistema-texto !important
+
+.color-fondo-text
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 40%
+    bottom: 0
+    left: 75%
+    right: 0
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #C7E3FC 
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 110%       
+    background-image: url('../assets/curso/temas/img20.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top     
+
+.bg2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/img21.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center 
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: red
+        font-weight: 700
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 30px
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 20px
+      margin-right: 0.65rem
+      margin-top: 4px
+      img 
+        width: 30px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 2px        
+
+.tv
+  text-decoration: underline #0082EF    
+
+.lista-ol--cuadro__vineta
+  background-color: #00D0AC 
+
+
+.up
+  z-index: 2 !important  
+
+.bg3
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/img26.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+
+.bg4  
+  background-image: url('../assets/curso/temas/img30.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.cajon.color-secundario
+  background-color: #C2F3EB
+.cajon.color-secundario::before
+  background-color: #0BD6B3
+
+.bgv
+  background-color: #0082EF !important
+
+.bg5
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/img45.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+
+.tabla-a thead
+  background-color: #0BD6B3 
+  border-top: 0px solid !important
+
+.tarjeta.color-primario
+  background-image: url('../assets/curso/temas/img49.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bgt1
+  background-color: #0A5FA6 !important
+
+.bgt2
+  background-color: #DEE4F0  
+
+.bgt3
+  background-color: #AABEE7
+
+.bgt4
+  background-color: #DEE4F0   
+
+.bgt5
+  background-color: #00B0F0 
+  
+.tbg6
+  background-color: #CAD9E2  
+  
+.tbg7
+  background-color: #89EA21 !important   
