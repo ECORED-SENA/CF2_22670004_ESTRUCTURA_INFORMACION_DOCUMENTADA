@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'La validación de la información y diseño de indicadores de gestión',
     descripcionCurso:
-      'Validar la información en la recopilación de datos direcciona a establecer que los componentes temáticos sean coherentes, efectivos, veraces para el diseño de estrategias y actividades en los procesos de manufactura. Verificarla conduce a la construcción de indicadores y planteamiento de objetivos claros, y así lograr un excelente esquema de administración de la calidad apoyado en herramientas de trazabilidad logística.',
+      'Validar la información en la recopilación de datos, direcciona a establecer que los componentes temáticos sean coherentes, efectivos, y veraces para el diseño de estrategias y de actividades en los procesos de manufactura. Verificarla, conduce a la construcción de indicadores y planteamiento de objetivos claros, y así lograr un excelente esquema de administración de la calidad apoyado en herramientas de trazabilidad logística.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -303,7 +303,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

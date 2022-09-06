@@ -31,8 +31,8 @@
       div(x="25%" y="21.3%" tooltip="Ver mas" numero="+")
         .row.justify-content-center.align-items-center.pt-5           
           .col-lg-6
-            h4 2. Soluciones
-            p Presentan soluciones a las problemáticas de los procesos productivos cuantitativos o cualitativos. Son valores que se obtienen. 
+            h4 2. Arrojan soluciones
+            p Presentan soluciones a las problemáticas de los procesos productivos, cuantitativos o cualitativos. Sobre los valores que se obtienen de éstos. 
           .col-lg-6
             img.img-a.img-t(src='@/assets/curso/temas/img5.png', alt='')      
       div(x="72.3%" y="76.5%" tooltip="Ver mas" numero="+")

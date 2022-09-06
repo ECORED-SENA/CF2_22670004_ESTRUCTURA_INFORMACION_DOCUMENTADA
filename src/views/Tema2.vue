@@ -168,9 +168,9 @@
           p.mb-0.tv #[b Permanentes]
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6
-          p(data-aos="fade-down") La información documentada genera un proceso productivo de fabricación asociado a los márgenes de variabilidad permanente, para así definir los parámetros en el diseño de índices de trazabilidad que perduren en el tiempo y aporten siempre en la estructuración de un proceso logístico, donde se debe tener presente el diseño de indicadores que acompañen en la administración de los protocolos administrativos para lograr procesos sostenibles, lo que conlleva al indicador que se define como permanente. 
+          p(data-aos="fade-down") La información documentada genera un proceso productivo de fabricación asociado a los márgenes de variabilidad permanente, para así definir los parámetros en el diseño de índices de trazabilidad, que perduren en el tiempo y aporten siempre en la estructuración de un proceso logístico, donde se debe tener presente el diseño de indicadores que acompañen en la administración de los protocolos administrativos para lograr procesos sostenibles, lo que conlleva al indicador que se define como permanente. 
 
-          p(data-aos="fade-down") Estos indicadores temporales o permanentes es necesario diseñarlos, para ello se deben tener en cuenta los siguientes parámetros: 
+          p(data-aos="fade-down") Estos indicadores temporales o permanentes es necesario diseñarlos, para ello, se deben tener en cuenta los siguientes parámetros: 
 
         .col-lg-6
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img28.png', alt='') 
