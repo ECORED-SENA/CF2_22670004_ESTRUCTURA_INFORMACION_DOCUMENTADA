@@ -139,13 +139,17 @@
     content: ""
     position: absolute
     margin-left: -48px
-    margin-top: 0
+    margin-top: 0rem
     width: calc( 100% + 96px )
     height: 100%       
     background-image: url('../assets/curso/temas/img21.png')
     background-size: 100% auto  
     background-repeat: no-repeat
-    background-position: center 
+    background-position: center top
+    @media (max-width: 810px)
+      display: none
+    @media screen and ( $bp-max-sm)
+      height: 100%  
 
 .list 
   width: 100%

@@ -64,23 +64,23 @@
       p(data-aos="fade-down").mb-5 Relacionar e integrar índices logísticos de gestión a procesos y procedimientos es el fundamento de todas las prácticas estratégicas documentadas que pretenden los líderes de procesos, realizadas para máximos rendimientos de la infraestructura tecnológica digital y humana.
       .bg2.up.pb-5
         .row.justify-content-center.align-items-center.py-5       
-          .col-lg-10        
+          .col-lg-10.py-2        
             p(data-aos="fade-down").mb-5 Un índice de trazabilidad de la gestión empresarial busca que se logren la medición, la evaluación y el control:
-            .list.mb-5(data-aos="fade-down")
+            .list.mb-3(data-aos="fade-down")
               .list__item
                 .list__item__icon
                   img(src='@/assets/curso/temas/img23.svg', alt='')
               .list__txt
                 p.mb-0.tv #[b La medición]
             .row.justify-content-center.align-items-center.mb-5           
-              .col-lg-6 
+              .col-lg-6.my-3 
                 p(data-aos="fade-down") La medición de datos se considera una herramienta de planificación estratégica con alto grado de acierto y seguridad, que facilita la trazabilidad y explica el comportamiento de la productividad; 
                   span.tblue #[b es una estrategia relevante, de carácter procedimental, la cual configura paralelos de comparación de datos con base en soportar objetivos relevantes para la compañía y estandarizarlos, criterios que ayudan a cumplir estrategias, metas, propósitos y fines organizacionales de la compañía. ]
                   span Permite la labor de asignación de recursos de acuerdo con niveles exigidos. Además, proyecta y pronostica resultados relevantes para el sostenimiento futuro de la compañía.         
               .col-lg-6 
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img22.png', alt='')
 
-            .list.mb-5(data-aos="fade-down")
+            .list.mb-3(data-aos="fade-down")
               .list__item
                 .list__item__icon
                   img(src='@/assets/curso/temas/img23.svg', alt='')
@@ -89,7 +89,7 @@
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6 
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img24.png', alt='')                         
-              .col-lg-6 
+              .col-lg-6.my-3 
                 p(data-aos="fade-down") Es una 
                   span.tblue #[b descripción clara de una situación problema o de la oportunidad de un proceso dinámico, sistémico y evolutivo, para establecer los objetivos a alcanzar por el equipo del área o departamento, ] 
                   span tanto al nivel de objetivos de mejoramiento medibles como a nivel de un cronograma de trabajo individual o de conjunto. 
@@ -99,14 +99,14 @@
                 p(data-aos="fade-down").tblue #[b La evaluación facilita la retroalimentación, el reordenamiento de funciones, acomodar las cargas de trabajo y la redistribución de las funciones, para soportar estratégicamente resultados positivos.]  
                 p(data-aos="fade-down") Evaluar es un  complemento estratégico para la planificación interna.
 
-            .list.mb-5(data-aos="fade-down")
+            .list.mb-3(data-aos="fade-down")
               .list__item
                 .list__item__icon
                   img(src='@/assets/curso/temas/img23.svg', alt='')
               .list__txt
                 p.mb-0.tv #[b El control]
             .row.justify-content-center.align-items-center        
-              .col-lg-6 
+              .col-lg-6.my-3 
                 p(data-aos="fade-down") Se puede definir el control como la posibilidad de administrar o reorientar la infraestructura tecnológica digital humana y procedimental; para ello se busca:
                 ol.lista-ol--cuadro(data-aos="fade-down")
                   li 
@@ -597,7 +597,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4(data-aos="fade-down").mb-1 Recopilación de datos estadisticos
+                  h4(data-aos="fade-down").mb-1 Recopilación de datos estadísticos
                   p(data-aos="fade-down").mb-0 Para mayor ilustración de la temática recopilación de datos estadísticos cuadros de control, referirse al siguiente material bibliográfico.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://repositorio.unal.edu.co/handle/unal/69893" target="_blank")

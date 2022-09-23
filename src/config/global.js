@@ -292,7 +292,7 @@ export default {
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Revisión de guión audiovisual',
+        cargo: 'Revisión de guion audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
@@ -334,12 +334,7 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
+        nombre: 'Jhon Fredy Rodriguez Castiblanco ',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
