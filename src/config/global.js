@@ -130,14 +130,6 @@ export default {
       tipo: 'Libro',
       descarga: '/downloads/diagnostico_empresarial.pdf',
     },
-    {
-      tema: 'Diseño de indicadores de gestión.',
-      referencia:
-        'Muñiz, L. (2017). <i>Check-List para el diagnóstico empresarial</i>. Editorial Profit.',
-      tipo: 'Libro',
-      link:
-        'https://www.buscalibre.com.co/libro-check-list-para-el-diagnostico-empresarial-luis-muniz-gonzalez-profit/9788416583850/p/47940953?gclid=EAIaIQobChMInJ3Ewpba9gIVSAaICR0DugtTEAQYAiABEgJuSvD_BwE',
-    },
   ],
   glosario: [
     {

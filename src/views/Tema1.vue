@@ -99,22 +99,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img12.png', alt='')
 
     p(data-aos="fade-down").mb-5 En atención a la resolución de las medidas que surjan de la elaboración de listas de chequeo, todas las personas utilizan el mismo procedimiento, el cual está direccionado a asegurar que los cambios a presentarse cubran correcta y positivamente tareas, actividades, procedimientos y procesos.
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2
-              img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img8.svg', alt='') 
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4(data-aos="fade-down").mb-1 Check-List Para el Diagnóstico Empresarial
-                  p(data-aos="fade-down").mb-0 Para mayor ilustración de la temática, referirse al siguiente material bibliográfico.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.buscalibre.com.co/libro-check-list-para-el-diagnostico-empresarial-luis-muniz-gonzalez-profit/9788416583850/p/47940953?gclid=EAIaIQobChMInJ3Ewpba9gIVSAaICR0DugtTEAQYAiABEgJuSvD_BwE" target="_blank")
-                    span.ts Descargar
-                    i.ts.fas.fa-file-download                            
+                    
 </template>
 
 <script>
